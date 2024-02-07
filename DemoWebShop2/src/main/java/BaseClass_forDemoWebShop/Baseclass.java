@@ -33,6 +33,7 @@ import UtilityClass.FrameWorkConstants;
 
 public class Baseclass implements FrameWorkConstants {
 
+	//Creating global variables
 	public WebDriver driver;
 	SoftAssert action = new SoftAssert();
 	DataUtilityClass data = new DataUtilityClass();
